@@ -1,0 +1,3 @@
+DoctorID,Name,Specialization,Phone,Email,DepartmentID
+D201,Dr. Smith,Cardiology,9876541111,drsmith@hospital.com,1
+D202,Dr. Allen,Neurology,9876542222,drallen@hospital.com,2

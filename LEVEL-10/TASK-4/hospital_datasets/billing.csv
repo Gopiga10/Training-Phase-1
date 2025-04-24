@@ -1,0 +1,2 @@
+BillID,PatientID,Amount,PaymentMethod,Status,BillDate
+B501,101,500,Credit Card,Paid,2024-03-16

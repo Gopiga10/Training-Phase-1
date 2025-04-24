@@ -1,0 +1,2 @@
+RecordID,PatientID,Diagnosis,Prescription,Notes,CreatedAt
+R401,101,Hypertension,"Med A, Med B",Follow-up in 1 month,2024-03-16

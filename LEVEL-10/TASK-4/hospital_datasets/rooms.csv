@@ -1,0 +1,3 @@
+RoomID,RoomType,AvailabilityStatus,AssignedPatientID
+R601,ICU,Occupied,101.0
+R602,General,Available,
