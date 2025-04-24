@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monthly Cumulative Sales</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f0f8ff; }
+        h1 { text-align: center; color: #333; }
+        table { width: 80%; margin: auto; border-collapse: collapse; background-color: white; }
+        th, td { padding: 12px; border: 1px solid #ddd; text-align: center; }
+        th { background-color: #007BFF; color: white; }
+        a { display: block; text-align: center; margin-top: 20px; text-decoration: none; color: #007BFF; }
+    </style>
+</head>
+<body>
+    <h1>Monthly Cumulative Sales</h1>
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Cumulative Sales</th>
+        </tr>
+        {% for index, row in data.iterrows() %}
+        <tr>
+            <td>{{ row['month'] }}</td>
+            <td>{{ row['cumulative_sales'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="{{ url_for('top_customers') }}">View Top 5 Customers by Category</a>
+</body>
+</html>

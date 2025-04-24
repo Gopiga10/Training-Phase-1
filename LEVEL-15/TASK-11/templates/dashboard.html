@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Dashboard</h2>
+<canvas id="customerChart" style="max-width: 1000px; max-height: 1000px;"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('customerChart').getContext('2d');
+    const customerChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: {{ months|tojson }},
+            datasets: [{
+                label: 'Number of Customers',
+                data: {{ customer_counts|tojson }},
+                backgroundColor: 'rgba(75, 192, 192, 0.5)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: false,
+            plugins: {
+                legend: { position: 'top' },
+                title: { display: true, text: 'Customers Per Month' }
+            },
+            scales: {
+                y: { beginAtZero: true, ticks: { stepSize: 1 } }
+            }
+        }
+    });
+</script>
+{% endblock %}

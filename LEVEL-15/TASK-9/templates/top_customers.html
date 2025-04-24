@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top 5 Customers by Category</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f0f8ff; }
+        h1 { text-align: center; color: #333; }
+        table { width: 80%; margin: auto; border-collapse: collapse; background-color: white; }
+        th, td { padding: 12px; border: 1px solid #ddd; text-align: center; }
+        th { background-color: #007BFF; color: white; }
+        a { display: block; text-align: center; margin-top: 20px; text-decoration: none; color: #007BFF; }
+    </style>
+</head>
+<body>
+    <h1>Top 5 Customers by Category</h1>
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Customer ID</th>
+            <th>Customer Name</th>
+            <th>Total Spent</th>
+        </tr>
+        {% for index, row in data.iterrows() %}
+        <tr>
+            <td>{{ row['category'] }}</td>
+            <td>{{ row['customer_id'] }}</td>
+            <td>{{ row['customer_name'] }}</td>
+            <td>{{ row['total_spent'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="{{ url_for('monthly_sales') }}">Back to Monthly Sales</a>
+</body>
+</html>
+

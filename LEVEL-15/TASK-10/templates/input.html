@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: auto;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enter Customer and Order Details</h1>
+    <form method="POST">
+        <h3>Customer Details</h3>
+        <label>Customer Name:</label>
+        <input type="text" name="customer_name" required>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+
+        <label>Phone:</label>
+        <input type="text" name="phone" required>
+
+        <h3>Order Details</h3>
+        <label>Product Name:</label>
+        <input type="text" name="product_name" required>
+
+        <label>Quantity:</label>
+        <input type="number" name="quantity" required>
+
+        <label>Price:</label>
+        <input type="number" step="0.01" name="price" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
