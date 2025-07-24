@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='hans_rosling_data (hans.xlxs)' inline='true' name='federated.0jd785c1903g9b11jx7rq0vwpreu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='hans.xlxs' name='excel-direct.0c1ijqi01ccqxu155bwog0euc58j'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/daksh/Downloads/TRAINING/LEVEL_23/TASK5/hans.xlxs.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0c1ijqi01ccqxu155bwog0euc58j' name='hans_rosling_data' table='[hans_rosling_data$]' type='table'>
+          <columns gridOrigin='A1:E13:no:A1:E13:0' header='yes' outcome='6'>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='integer' name='GDP_per_Capita' ordinal='2' />
+            <column datatype='integer' name='Life_Expectancy' ordinal='3' />
+            <column datatype='integer' name='Population' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0c1ijqi01ccqxu155bwog0euc58j' name='hans_rosling_data' table='[hans_rosling_data$]' type='table'>
+          <columns gridOrigin='A1:E13:no:A1:E13:0' header='yes' outcome='6'>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='integer' name='GDP_per_Capita' ordinal='2' />
+            <column datatype='integer' name='Life_Expectancy' ordinal='3' />
+            <column datatype='integer' name='Population' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[hans_rosling_data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E13:no:A1:E13:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[hans_rosling_data]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hans!rosling!data_C6F7541F1F7E4D9E8E60EADBFF199D05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[hans_rosling_data]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hans!rosling!data_C6F7541F1F7E4D9E8E60EADBFF199D05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GDP_per_Capita</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GDP_per_Capita]</local-name>
+            <parent-name>[hans_rosling_data]</parent-name>
+            <remote-alias>GDP_per_Capita</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hans!rosling!data_C6F7541F1F7E4D9E8E60EADBFF199D05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Life_Expectancy</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Life_Expectancy]</local-name>
+            <parent-name>[hans_rosling_data]</parent-name>
+            <remote-alias>Life_Expectancy</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hans!rosling!data_C6F7541F1F7E4D9E8E60EADBFF199D05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[hans_rosling_data]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[hans!rosling!data_C6F7541F1F7E4D9E8E60EADBFF199D05]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='GDP per Capita' datatype='integer' name='[GDP_per_Capita]' role='measure' type='quantitative' />
+      <column caption='Life Expectancy' datatype='integer' name='[Life_Expectancy]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='hans_rosling_data' datatype='table' name='[__tableau_internal_object_id__].[hans!rosling!data_C6F7541F1F7E4D9E8E60EADBFF199D05]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='hans_rosling_data' id='hans!rosling!data_C6F7541F1F7E4D9E8E60EADBFF199D05'>
+            <properties context=''>
+              <relation connection='excel-direct.0c1ijqi01ccqxu155bwog0euc58j' name='hans_rosling_data' table='[hans_rosling_data$]' type='table'>
+                <columns gridOrigin='A1:E13:no:A1:E13:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Country' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='integer' name='GDP_per_Capita' ordinal='2' />
+                  <column datatype='integer' name='Life_Expectancy' ordinal='3' />
+                  <column datatype='integer' name='Population' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Hans Rosling Chart</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='hans_rosling_data (hans.xlxs)' name='federated.0jd785c1903g9b11jx7rq0vwpreu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jd785c1903g9b11jx7rq0vwpreu'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='GDP per Capita' datatype='integer' name='[GDP_per_Capita]' role='measure' type='quantitative' />
+            <column caption='Life Expectancy' datatype='integer' name='[Life_Expectancy]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[GDP_per_Capita]' derivation='Sum' name='[sum:GDP_per_Capita:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Life_Expectancy]' derivation='Sum' name='[sum:Life_Expectancy:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Population]' derivation='Sum' name='[sum:Population:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0jd785c1903g9b11jx7rq0vwpreu].[sum:GDP_per_Capita:qk]' field-type='quantitative' scale='log' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0jd785c1903g9b11jx7rq0vwpreu].[none:Country:nk]' />
+              <size column='[federated.0jd785c1903g9b11jx7rq0vwpreu].[sum:Population:qk]' />
+              <text column='[federated.0jd785c1903g9b11jx7rq0vwpreu].[none:Country:nk]' />
+              <lod column='[federated.0jd785c1903g9b11jx7rq0vwpreu].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.9450275897979736' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0jd785c1903g9b11jx7rq0vwpreu].[sum:Life_Expectancy:qk]</rows>
+        <cols>[federated.0jd785c1903g9b11jx7rq0vwpreu].[sum:GDP_per_Capita:qk]</cols>
+        <pages>
+          <column>[federated.0jd785c1903g9b11jx7rq0vwpreu].[none:Year:ok]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{7D14DFD2-33DB-44D0-BDDA-0215DAEBEA1A}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='100'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0jd785c1903g9b11jx7rq0vwpreu].[none:Country:nk]' type='color' />
+            <card type='currpage' />
+            <card pane-specification-id='0' param='[federated.0jd785c1903g9b11jx7rq0vwpreu].[sum:Population:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2000</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jd785c1903g9b11jx7rq0vwpreu].[none:Country:nk]</field>
+            <field>[federated.0jd785c1903g9b11jx7rq0vwpreu].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6C347155-DAC2-47EB-9B75-3A7F9DC4AF7C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

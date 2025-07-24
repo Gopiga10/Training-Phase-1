@@ -1,0 +1,1579 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='cell_phones_total (cell_phones_total)' inline='true' name='federated.15uvc5b0tuxiha1b3y8mp18jl5l4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cell_phones_total' name='excel-direct.0acx6p219od5c80zoe7vw16zbwmf'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/daksh/Downloads/TRAINING/LEVEL_23/TASK3/cell_phones_total.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0acx6p219od5c80zoe7vw16zbwmf' name='cell_phones_total' table='[cell_phones_total$]' type='table'>
+          <columns gridOrigin='A1:BM215:no:A1:BM215:0' header='yes' outcome='2'>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='integer' name='1960' ordinal='1' />
+            <column datatype='integer' name='1961' ordinal='2' />
+            <column datatype='integer' name='1962' ordinal='3' />
+            <column datatype='integer' name='1963' ordinal='4' />
+            <column datatype='integer' name='1964' ordinal='5' />
+            <column datatype='integer' name='1965' ordinal='6' />
+            <column datatype='integer' name='1966' ordinal='7' />
+            <column datatype='integer' name='1967' ordinal='8' />
+            <column datatype='integer' name='1968' ordinal='9' />
+            <column datatype='integer' name='1969' ordinal='10' />
+            <column datatype='integer' name='1970' ordinal='11' />
+            <column datatype='integer' name='1971' ordinal='12' />
+            <column datatype='integer' name='1972' ordinal='13' />
+            <column datatype='integer' name='1973' ordinal='14' />
+            <column datatype='integer' name='1974' ordinal='15' />
+            <column datatype='integer' name='1975' ordinal='16' />
+            <column datatype='integer' name='1976' ordinal='17' />
+            <column datatype='integer' name='1977' ordinal='18' />
+            <column datatype='integer' name='1978' ordinal='19' />
+            <column datatype='integer' name='1979' ordinal='20' />
+            <column datatype='string' name='1980' ordinal='21' />
+            <column datatype='string' name='1981' ordinal='22' />
+            <column datatype='string' name='1982' ordinal='23' />
+            <column datatype='string' name='1983' ordinal='24' />
+            <column datatype='string' name='1984' ordinal='25' />
+            <column datatype='string' name='1985' ordinal='26' />
+            <column datatype='string' name='1986' ordinal='27' />
+            <column datatype='string' name='1987' ordinal='28' />
+            <column datatype='string' name='1988' ordinal='29' />
+            <column datatype='string' name='1989' ordinal='30' />
+            <column datatype='string' name='1990' ordinal='31' />
+            <column datatype='string' name='1991' ordinal='32' />
+            <column datatype='string' name='1992' ordinal='33' />
+            <column datatype='string' name='1993' ordinal='34' />
+            <column datatype='string' name='1994' ordinal='35' />
+            <column datatype='string' name='1995' ordinal='36' />
+            <column datatype='string' name='1996' ordinal='37' />
+            <column datatype='string' name='1997' ordinal='38' />
+            <column datatype='string' name='1998' ordinal='39' />
+            <column datatype='string' name='1999' ordinal='40' />
+            <column datatype='string' name='2000' ordinal='41' />
+            <column datatype='string' name='2001' ordinal='42' />
+            <column datatype='string' name='2002' ordinal='43' />
+            <column datatype='string' name='2003' ordinal='44' />
+            <column datatype='string' name='2004' ordinal='45' />
+            <column datatype='string' name='2005' ordinal='46' />
+            <column datatype='string' name='2006' ordinal='47' />
+            <column datatype='string' name='2007' ordinal='48' />
+            <column datatype='string' name='2008' ordinal='49' />
+            <column datatype='string' name='2009' ordinal='50' />
+            <column datatype='string' name='2010' ordinal='51' />
+            <column datatype='string' name='2011' ordinal='52' />
+            <column datatype='string' name='2012' ordinal='53' />
+            <column datatype='string' name='2013' ordinal='54' />
+            <column datatype='string' name='2014' ordinal='55' />
+            <column datatype='string' name='2015' ordinal='56' />
+            <column datatype='string' name='2016' ordinal='57' />
+            <column datatype='string' name='2017' ordinal='58' />
+            <column datatype='string' name='2018' ordinal='59' />
+            <column datatype='string' name='2019' ordinal='60' />
+            <column datatype='string' name='2020' ordinal='61' />
+            <column datatype='string' name='2021' ordinal='62' />
+            <column datatype='string' name='2022' ordinal='63' />
+            <column datatype='string' name='2023' ordinal='64' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0acx6p219od5c80zoe7vw16zbwmf' name='cell_phones_total' table='[cell_phones_total$]' type='table'>
+          <columns gridOrigin='A1:BM215:no:A1:BM215:0' header='yes' outcome='2'>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='integer' name='1960' ordinal='1' />
+            <column datatype='integer' name='1961' ordinal='2' />
+            <column datatype='integer' name='1962' ordinal='3' />
+            <column datatype='integer' name='1963' ordinal='4' />
+            <column datatype='integer' name='1964' ordinal='5' />
+            <column datatype='integer' name='1965' ordinal='6' />
+            <column datatype='integer' name='1966' ordinal='7' />
+            <column datatype='integer' name='1967' ordinal='8' />
+            <column datatype='integer' name='1968' ordinal='9' />
+            <column datatype='integer' name='1969' ordinal='10' />
+            <column datatype='integer' name='1970' ordinal='11' />
+            <column datatype='integer' name='1971' ordinal='12' />
+            <column datatype='integer' name='1972' ordinal='13' />
+            <column datatype='integer' name='1973' ordinal='14' />
+            <column datatype='integer' name='1974' ordinal='15' />
+            <column datatype='integer' name='1975' ordinal='16' />
+            <column datatype='integer' name='1976' ordinal='17' />
+            <column datatype='integer' name='1977' ordinal='18' />
+            <column datatype='integer' name='1978' ordinal='19' />
+            <column datatype='integer' name='1979' ordinal='20' />
+            <column datatype='string' name='1980' ordinal='21' />
+            <column datatype='string' name='1981' ordinal='22' />
+            <column datatype='string' name='1982' ordinal='23' />
+            <column datatype='string' name='1983' ordinal='24' />
+            <column datatype='string' name='1984' ordinal='25' />
+            <column datatype='string' name='1985' ordinal='26' />
+            <column datatype='string' name='1986' ordinal='27' />
+            <column datatype='string' name='1987' ordinal='28' />
+            <column datatype='string' name='1988' ordinal='29' />
+            <column datatype='string' name='1989' ordinal='30' />
+            <column datatype='string' name='1990' ordinal='31' />
+            <column datatype='string' name='1991' ordinal='32' />
+            <column datatype='string' name='1992' ordinal='33' />
+            <column datatype='string' name='1993' ordinal='34' />
+            <column datatype='string' name='1994' ordinal='35' />
+            <column datatype='string' name='1995' ordinal='36' />
+            <column datatype='string' name='1996' ordinal='37' />
+            <column datatype='string' name='1997' ordinal='38' />
+            <column datatype='string' name='1998' ordinal='39' />
+            <column datatype='string' name='1999' ordinal='40' />
+            <column datatype='string' name='2000' ordinal='41' />
+            <column datatype='string' name='2001' ordinal='42' />
+            <column datatype='string' name='2002' ordinal='43' />
+            <column datatype='string' name='2003' ordinal='44' />
+            <column datatype='string' name='2004' ordinal='45' />
+            <column datatype='string' name='2005' ordinal='46' />
+            <column datatype='string' name='2006' ordinal='47' />
+            <column datatype='string' name='2007' ordinal='48' />
+            <column datatype='string' name='2008' ordinal='49' />
+            <column datatype='string' name='2009' ordinal='50' />
+            <column datatype='string' name='2010' ordinal='51' />
+            <column datatype='string' name='2011' ordinal='52' />
+            <column datatype='string' name='2012' ordinal='53' />
+            <column datatype='string' name='2013' ordinal='54' />
+            <column datatype='string' name='2014' ordinal='55' />
+            <column datatype='string' name='2015' ordinal='56' />
+            <column datatype='string' name='2016' ordinal='57' />
+            <column datatype='string' name='2017' ordinal='58' />
+            <column datatype='string' name='2018' ordinal='59' />
+            <column datatype='string' name='2019' ordinal='60' />
+            <column datatype='string' name='2020' ordinal='61' />
+            <column datatype='string' name='2021' ordinal='62' />
+            <column datatype='string' name='2022' ordinal='63' />
+            <column datatype='string' name='2023' ordinal='64' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BM215:no:A1:BM215:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1960</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1960]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1960</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1961</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1961]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1961</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1962</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1962]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1962</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1963</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1963]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1963</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1964</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1964]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1964</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1965</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1965]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1965</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1966</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1966]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1966</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1967</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1967]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1967</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1968</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1968]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1968</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1969</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1969]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1969</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1970</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1970]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1970</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1971</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1971]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1971</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1972</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1972]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1972</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1973</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1973]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1973</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1974</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1974]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1974</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1975</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1975]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1975</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1976</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1976]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1976</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1977</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1977]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1977</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1978</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1978]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1978</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1979</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[1979]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1979</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1980</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1980]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1980</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1981</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1981]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1981</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1982</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1982]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1982</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1983</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1983]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1983</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1984</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1984]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1984</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1985</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1985]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1985</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1986</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1986]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1986</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1987</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1987]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1987</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1988</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1988]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1988</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1989</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1989]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1989</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1990</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1990]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1990</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1991</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1991]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1991</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1992</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1992]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1992</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1993</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1993]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1993</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1994</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1994]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1994</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1995</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1995]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1995</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1996</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1996]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1996</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1997</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1997]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1997</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1998</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1998]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1998</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1999</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1999]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>1999</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2000</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2000]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2000</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2001</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2001]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2001</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2002</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2002]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2002</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2003</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2003]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2003</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2004</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2004]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2004</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2005</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2005]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2005</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2006</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2006]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2006</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2007</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2007]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2007</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2008</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2008]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2008</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2009</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2009]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2009</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2010</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2010]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2010</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2011</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2011]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2011</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2012</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2012]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2012</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2013</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2013]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2013</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2014</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2014]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2014</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2015</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2015]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2015</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2016</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2016]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2016</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2017</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2017]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2017</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2018</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2018]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2018</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2019</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2019]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2019</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2020</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2020]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2020</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2021</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2021]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2021</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2022</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2022]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2022</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2023</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2023]</local-name>
+            <parent-name>[cell_phones_total]</parent-name>
+            <remote-alias>2023</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='cell_phones_total' datatype='table' name='[__tableau_internal_object_id__].[cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='cell_phones_total' id='cell!phones!total_7BA9603B3ED043A8B0F46610AE967D2A'>
+            <properties context=''>
+              <relation connection='excel-direct.0acx6p219od5c80zoe7vw16zbwmf' name='cell_phones_total' table='[cell_phones_total$]' type='table'>
+                <columns gridOrigin='A1:BM215:no:A1:BM215:0' header='yes' outcome='2'>
+                  <column datatype='string' name='country' ordinal='0' />
+                  <column datatype='integer' name='1960' ordinal='1' />
+                  <column datatype='integer' name='1961' ordinal='2' />
+                  <column datatype='integer' name='1962' ordinal='3' />
+                  <column datatype='integer' name='1963' ordinal='4' />
+                  <column datatype='integer' name='1964' ordinal='5' />
+                  <column datatype='integer' name='1965' ordinal='6' />
+                  <column datatype='integer' name='1966' ordinal='7' />
+                  <column datatype='integer' name='1967' ordinal='8' />
+                  <column datatype='integer' name='1968' ordinal='9' />
+                  <column datatype='integer' name='1969' ordinal='10' />
+                  <column datatype='integer' name='1970' ordinal='11' />
+                  <column datatype='integer' name='1971' ordinal='12' />
+                  <column datatype='integer' name='1972' ordinal='13' />
+                  <column datatype='integer' name='1973' ordinal='14' />
+                  <column datatype='integer' name='1974' ordinal='15' />
+                  <column datatype='integer' name='1975' ordinal='16' />
+                  <column datatype='integer' name='1976' ordinal='17' />
+                  <column datatype='integer' name='1977' ordinal='18' />
+                  <column datatype='integer' name='1978' ordinal='19' />
+                  <column datatype='integer' name='1979' ordinal='20' />
+                  <column datatype='string' name='1980' ordinal='21' />
+                  <column datatype='string' name='1981' ordinal='22' />
+                  <column datatype='string' name='1982' ordinal='23' />
+                  <column datatype='string' name='1983' ordinal='24' />
+                  <column datatype='string' name='1984' ordinal='25' />
+                  <column datatype='string' name='1985' ordinal='26' />
+                  <column datatype='string' name='1986' ordinal='27' />
+                  <column datatype='string' name='1987' ordinal='28' />
+                  <column datatype='string' name='1988' ordinal='29' />
+                  <column datatype='string' name='1989' ordinal='30' />
+                  <column datatype='string' name='1990' ordinal='31' />
+                  <column datatype='string' name='1991' ordinal='32' />
+                  <column datatype='string' name='1992' ordinal='33' />
+                  <column datatype='string' name='1993' ordinal='34' />
+                  <column datatype='string' name='1994' ordinal='35' />
+                  <column datatype='string' name='1995' ordinal='36' />
+                  <column datatype='string' name='1996' ordinal='37' />
+                  <column datatype='string' name='1997' ordinal='38' />
+                  <column datatype='string' name='1998' ordinal='39' />
+                  <column datatype='string' name='1999' ordinal='40' />
+                  <column datatype='string' name='2000' ordinal='41' />
+                  <column datatype='string' name='2001' ordinal='42' />
+                  <column datatype='string' name='2002' ordinal='43' />
+                  <column datatype='string' name='2003' ordinal='44' />
+                  <column datatype='string' name='2004' ordinal='45' />
+                  <column datatype='string' name='2005' ordinal='46' />
+                  <column datatype='string' name='2006' ordinal='47' />
+                  <column datatype='string' name='2007' ordinal='48' />
+                  <column datatype='string' name='2008' ordinal='49' />
+                  <column datatype='string' name='2009' ordinal='50' />
+                  <column datatype='string' name='2010' ordinal='51' />
+                  <column datatype='string' name='2011' ordinal='52' />
+                  <column datatype='string' name='2012' ordinal='53' />
+                  <column datatype='string' name='2013' ordinal='54' />
+                  <column datatype='string' name='2014' ordinal='55' />
+                  <column datatype='string' name='2015' ordinal='56' />
+                  <column datatype='string' name='2016' ordinal='57' />
+                  <column datatype='string' name='2017' ordinal='58' />
+                  <column datatype='string' name='2018' ordinal='59' />
+                  <column datatype='string' name='2019' ordinal='60' />
+                  <column datatype='string' name='2020' ordinal='61' />
+                  <column datatype='string' name='2021' ordinal='62' />
+                  <column datatype='string' name='2022' ordinal='63' />
+                  <column datatype='string' name='2023' ordinal='64' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (cell_phones_cleaned)' inline='true' name='federated.0kgiq5z0dgi4lv173d6481m41j97' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cell_phones_cleaned' name='excel-direct.0xgybax0xmmxsu12jdrdd15b0cfh'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/daksh/Downloads/cell_phones_cleaned.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0xgybax0xmmxsu12jdrdd15b0cfh' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D13546:no:A1:D13546:0' header='yes' outcome='6'>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='real' name='cell_phones_per_100_people' ordinal='2' />
+            <column datatype='real' name='cell_phones_per_person' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0xgybax0xmmxsu12jdrdd15b0cfh' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D13546:no:A1:D13546:0' header='yes' outcome='6'>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='real' name='cell_phones_per_100_people' ordinal='2' />
+            <column datatype='real' name='cell_phones_per_person' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D13546:no:A1:D13546:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_82A2A5154535496A85603F1BFED7472A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_82A2A5154535496A85603F1BFED7472A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cell_phones_per_100_people</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cell_phones_per_100_people]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>cell_phones_per_100_people</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_82A2A5154535496A85603F1BFED7472A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cell_phones_per_person</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cell_phones_per_person]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>cell_phones_per_person</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_82A2A5154535496A85603F1BFED7472A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_82A2A5154535496A85603F1BFED7472A]' role='measure' type='quantitative' />
+      <column caption='Cell Phones Per 100 People' datatype='real' name='[cell_phones_per_100_people]' role='measure' type='quantitative' />
+      <column caption='Cell Phones Per Person' datatype='real' name='[cell_phones_per_person]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_82A2A5154535496A85603F1BFED7472A'>
+            <properties context=''>
+              <relation connection='excel-direct.0xgybax0xmmxsu12jdrdd15b0cfh' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:D13546:no:A1:D13546:0' header='yes' outcome='6'>
+                  <column datatype='string' name='country' ordinal='0' />
+                  <column datatype='integer' name='year' ordinal='1' />
+                  <column datatype='real' name='cell_phones_per_100_people' ordinal='2' />
+                  <column datatype='real' name='cell_phones_per_person' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (cell_phones_cleaned)' name='federated.0kgiq5z0dgi4lv173d6481m41j97' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kgiq5z0dgi4lv173d6481m41j97'>
+            <column caption='Cell Phones Per 100 People' datatype='real' name='[cell_phones_per_100_people]' role='measure' type='quantitative' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cell_phones_per_100_people]' derivation='Sum' name='[sum:cell_phones_per_100_people:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kgiq5z0dgi4lv173d6481m41j97].[sum:cell_phones_per_100_people:qk]</rows>
+        <cols>[federated.0kgiq5z0dgi4lv173d6481m41j97].[none:year:qk]</cols>
+      </table>
+      <simple-id uuid='{F8F7F22C-F388-4885-A780-7D1DADC1285B}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0kgiq5z0dgi4lv173d6481m41j97].[none:country:nk]</field>
+            <field>[federated.0kgiq5z0dgi4lv173d6481m41j97].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5F46431D-827C-444C-BA56-E2536BB8D6ED}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
