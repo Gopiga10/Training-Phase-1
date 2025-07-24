@@ -36,3 +36,8 @@ GOPIGASRI Y
 | Level 16  | None                     |
 | Level 17  | None                     |
 | Level 18  | Task 7                   |
+| Level 19  |	None                     |
+| Level 20  | None                     |
+| Level 21  |	None                     |
+| Level 22	| None                     |
+| Level 23	| Task 5                   |
